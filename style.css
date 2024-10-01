@@ -1,0 +1,54 @@
+@font-face {
+    font-family: boots;
+    src: url('Nestocopper42-1GVw2.ttf');
+}
+
+body{
+
+    font-family: boots;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button{
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background: rgb(28, 184, 65);
+    transition: background-color 0.3s;
+
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+p {
+    font-size: 24px;
+    color: #555;
+    margin-top: 20px;
+}
+.names-list {
+    font-size: 24px;
+    color: #555;
+    margin-top: 20px;
+}
+
+.name {
+    margin: 5px 0;
+}
